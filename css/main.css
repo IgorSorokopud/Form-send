@@ -1,0 +1,334 @@
+#wrapper {
+    width: 1024px;
+    height: 768px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    overflow: hidden;
+}
+
+#main-header {
+    width: 100%;
+    height: 105px;
+    background-color: #ffffff;
+    border-bottom: 3px solid #A8A8A8;
+}
+
+h1 {
+    color: #656565;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 105px;
+    font-family: Times New Roman;
+    font-size: 35px;
+    margin: 0;
+}
+
+h1 span {
+    color: #00b9e6;
+    font-size: 25px;
+}
+
+/*page-first*/
+.section {
+    border: 1px solid #C6C6C6;
+    width: 300px;
+    height: 578px;
+    float: left;
+    margin-right: 14px ;
+    border-radius: 5px;
+}
+
+.logo-section {
+    width: 100%;
+    height: 140px;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+}
+
+.logo-document {
+    background: #DB4437 url("../img/red.jpg") no-repeat center center;
+}
+
+.log-links {
+    background: #00B9E6 url("../img/blue.jpg") no-repeat center center;
+}
+
+.logo-scienceLad {
+    background: #0F9D58 url("../img/green.jpg") no-repeat center center;
+}
+
+.content-section {
+    width: 100%;
+    height: 375px;
+    border-bottom: 1px solid #C6C6C6;
+    overflow-y: scroll;
+}
+
+.logo-section p {
+    margin: 0;
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    float: left;
+    cursor: pointer;
+    -webkit-appearance: none;
+    border: 2px solid #8b8b8b;
+    padding: 9px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    outline: none;
+}
+
+.content-red input[type="checkbox"]:checked {
+    background-color: #DB4437;
+    border: none;
+}
+
+.content-blue input[type="checkbox"]:checked {
+    background-color: #00B9E6;
+    border: none;
+}
+
+.content-green input[type="checkbox"]:checked {
+    background-color: #0F9D58;
+    border: none;
+}
+
+input[type="checkbox"]:checked:after {
+    content: '\2714';
+    font-size: 14px;
+    position: absolute;
+    top: 1px;
+    left: 3px;
+    color: #ffffff;
+    width: 30px;
+}
+
+.block-checkbox {
+    height: 50px;
+    width: 100%;
+}
+
+.content-section span {
+    color: #8b8b8b;
+    font-size: 14px;
+}
+
+.content-section p {
+    font-size: 12px;
+    margin-left: 50px;
+    color: #c7c7c7;
+}
+
+.button-add, a {
+    text-decoration: none;
+    float: right;
+    margin: 20px 20px;
+    text-transform: uppercase;
+}
+
+#button-documents {
+    color: #DB4437;
+}
+
+#button-links {
+    color: #00B9E6;
+}
+
+#button-ScienceLab {
+    color: #0F9D58;
+}
+
+.content-section::-webkit-scrollbar {
+    width: 5px;
+}
+
+.content-red::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 50px rgb(219, 68, 55);
+}
+
+.content-blue::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 50px rgb(0, 185, 230);
+}
+
+.content-green::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 50px rgb(15, 157, 88);
+}
+
+#page-first {
+    float: left;
+    margin: 0 200px 0 50px;
+}
+
+#wrapper-page {
+    width: 1976px;
+    height: 606px;
+    padding-top: 20px;
+}
+
+/*page-second*/
+#page-second {
+    width: 725px;
+    height: 575px;
+    border: 1px solid #D7D7D7;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+#page-second-header {
+    height: 140px;
+    width: 100%;
+    background: #00b9e6 url("../img/message.jpg") no-repeat center;
+    margin-bottom: 25px;
+}
+
+#form-send {
+    width: 100%;
+    height: 348px;
+    border-bottom: 1px solid #D7D7D7;
+}
+
+#resultTableID {
+    width: 655px;
+    height: 345px;
+    margin: 0 auto;
+}
+
+.field {
+    height: 25px;
+    width: 305px;
+    border: none;
+    border-bottom: 2px solid #D7D7D7;
+    outline: none;
+}
+
+#resultTableID > p {
+    margin: 0;
+    color: #00b9e6;
+}
+
+.block-field-Name {
+    width: 305px;
+    float: left;
+    margin-right: 45px;
+}
+
+.block-field-Name p {
+    color: #D7D7D7;
+    margin: 0;
+}
+
+.field-email {
+    border-bottom: 2px solid #00b9e6;
+}
+
+.field-text {
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-bottom: 2px solid #D7D7D7;
+    font-size: 16px;
+    margin-top: 20px;
+    outline: none;
+}
+
+#attached-links {
+    width: 100%;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.button-send {
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    text-transform: uppercase;
+    float: right;
+    color: #00b9e6;
+    margin: 25px;
+    outline: none;
+    font-weight: 600;
+}
+
+#indicator {
+    width: 50px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: #D7D7D7;
+    border-radius: 50% 50%;
+    float: left;
+    margin: 10px 10px 0 0;
+    list-style-type: none;
+}
+
+.active {
+    background-color: #00b9e6;
+}
+
+#attached-links br, #attached-links input {
+    display: none;
+}
+
+#attached-links p {
+    color: #606060;
+    border-bottom: 1px solid #cacaca;
+    padding: 0 0 10px 40px;
+    margin: 0;
+    width: 600px;
+}
+
+#resultTableID h3 {
+    color: #00b9e6;
+    margin-bottom: 10px;
+}
+
+#attached-links .block-checkbox {
+    position: relative;
+}
+
+.block-checkbox a {
+    background: url("../img/delete.jpg") no-repeat right;
+    height: 17px;
+    width: 14px;
+    position: absolute;
+    right: 0;
+    top: -19px;
+    cursor: pointer;
+}
+
+#attached-links::-webkit-scrollbar {
+    width: 5px;
+}
+
+#attached-links::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 50px rgb(0, 185, 230);
+}
+
+#attached-links .documents p {
+    background: url("../img/documents.jpg") no-repeat left;
+}
+
+#attached-links .links p {
+    background: url("../img/links.jpg") no-repeat left;
+}
+
+#attached-links .lab p {
+    background: url("../img/lab.jpg") no-repeat left;
+}
+
+
+

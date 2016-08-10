@@ -34,7 +34,6 @@ var Manager = {
     },
 
     buttonAddAll: function (value) {
-
         var parentButton = '#' + jQuery(value).text('remove all').parent().attr('id');
         allChecked = jQuery(parentButton + " input:checkbox:not(:checked)").attr('checked', 'true');
         Manager.addElements(allChecked);
